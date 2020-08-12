@@ -10,5 +10,5 @@ function onKeyPress(actionName, userInputState, inputObject)
    end
 end
 
-game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.R) --change 'R' to another key if you want to change it
+game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.F5) --change 'R' to another key if you want to change it
 --Not mine cunt

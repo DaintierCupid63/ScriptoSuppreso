@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Fuck you Dynasty, a game about japanese people even tho dynastys are chinese", "DarkTheme")
+local Window = Library.CreateLib("Fuck you Dynasty, i hate you", "DarkTheme")
 local Tab = Window:NewTab("Main")
 Section:NewButton("God Mode", "dude you are fucking stupid", function()
     local Client = game:GetService"Players".LocalPlayer

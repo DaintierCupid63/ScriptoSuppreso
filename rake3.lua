@@ -806,11 +806,7 @@ local errors, errormsg = pcall(function()
 	end
 	
 	local randomchases = {
-		"rbxassetid://8097506691",
-		"rbxassetid://8165500040",
-		"rbxassetid://8383725779",
-		"rbxassetid://3685282655",
-		"rbxassetid://3685282655"
+		"rbxassetid://9168646086"
 	}
 	
 	local chaseS = chasesou:GetPropertyChangedSignal("Volume"):Connect(function()

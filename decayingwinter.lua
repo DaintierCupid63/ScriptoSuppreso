@@ -5,6 +5,7 @@ local sections = tab.new_section('Take off you pants')
 local sector = sections.new_sector('TAKE THEM OFF', 'Left')
 local sector1 = sections.new_sector('I dont know man', 'Right')
 local sector2 = sections.new_sector('*insert funny quote here*', 'Left')
+local sector3 = sections.new_sector('what', 'Left')
 local button = sector.element('Button', 'Damned', nil, function()
     local perks = require(workspace.ServerStuff.Statistics["CLASS_STATISTICS"])["damn"].basestats
 local perk = require(workspace.ServerStuff.Statistics["CLASS_STATISTICS"])["damn"]
@@ -471,4 +472,7 @@ local button3333 = sector2.element('Button', "Artilierest (not even checking if 
         balls.revolver_headshot_multi = 10
         --balls.revolver_damage = 85
 
+end)
+local buttonwhat = sector2.element('Button', "Hide Aux (you don't need this)", nil, function()
+game.Players.LocalPlayer.mainHUD.UpperLower.auxcount.Visible = false
 end)

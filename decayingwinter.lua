@@ -473,6 +473,6 @@ local button3333 = sector2.element('Button', "Artilierest (not even checking if 
         --balls.revolver_damage = 85
 
 end)
-local buttonwhat = sector2.element('Button', "Hide Aux (you don't need this)", nil, function()
+local buttonwhat = sector3.element('Button', "Hide Aux (you don't need this)", nil, function()
 game.Players.LocalPlayer.PlayerGui.mainHUD.UpperLower.auxcount.Visible = false
 end)
